@@ -74,7 +74,7 @@ public class ThreadIngresso extends Thread {
 	}
 
 	public void validacaoCompra() {
-		int qtdIngressos = (int)((Math.random()*3.1) + 1);
+		int qtdIngressos = (int)((Math.random()*4) + 1);
 		
 		if(ingressoDisponivel >= qtdIngressos) {
 			System.out.println("#"+idPessoa+" conseguiu comprar "+qtdIngressos+" ingressos");
